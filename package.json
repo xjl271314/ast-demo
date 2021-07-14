@@ -1,0 +1,22 @@
+{
+  "name": "ast-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "find": "node ./find.js",
+    "update": "node ./update.js",
+    "create": "node ./create.js",
+    "delete": "node ./delete.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jscodeshift": "^0.13.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}
